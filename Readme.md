@@ -77,7 +77,7 @@ A basic delay between directions.
 |---|---|
 | Exit Time | How long in seconds until the next direction will be executed. |
 
-### Direction - Set Destination
+#### Direction - Set Destination
 
 Tell the NPC to navigate towards a destination. Exit Time is elapsed time _after_ the NPC has arrived at this destination.
 
@@ -88,7 +88,7 @@ Tell the NPC to navigate towards a destination. Exit Time is elapsed time _after
 | Teleport When Not Visible | Whether the NPC should teleport to it's destination when not being viewed. |
 | Exit Time | How long in seconds until the next direction will be executed. |
 
-### Direction - Teleport To
+#### Direction - Teleport To
 
 Immediately teleport the NPC to a destination
 
@@ -98,7 +98,7 @@ Immediately teleport the NPC to a destination
 | Target | The transform the NPC will teleport to. |
 | Exit Time | How long in seconds until the next direction will be executed. |
 
-### Direction - Send Event
+#### Direction - Send Event
 
 Send an Event to an UdonSharpBehaviour in your scene.
 
@@ -109,7 +109,7 @@ Send an Event to an UdonSharpBehaviour in your scene.
 | Event Name | The name of the event that shall be run. |
 | Exit Time | How long in seconds until the next direction will be executed. |
 
-### Direction - Dialogue
+#### Direction - Dialogue
 
 A comprehensive dialogue interaction with the NPC. Sequential lines of dialogue should be handled with multiple Dialogue directions.
 
@@ -126,7 +126,7 @@ A comprehensive dialogue interaction with the NPC. Sequential lines of dialogue 
 | | - Option: The text displaying the current answer. |
 | | - Director: The director to swap to if this answer is chosen. Useful for having different behaviour for different answers. |
 
-### Direction - Emote
+#### Direction - Emote
 
 Immediately teleport the NPC to a destination
 
